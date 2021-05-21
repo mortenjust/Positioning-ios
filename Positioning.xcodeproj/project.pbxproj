@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C817B6C42656C21E0090EAFA /* steve01.wav in Resources */ = {isa = PBXBuildFile; fileRef = C817B6C32656C21E0090EAFA /* steve01.wav */; };
 		C88E710E2656C00A00AB587B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88E710D2656C00A00AB587B /* AppDelegate.swift */; };
 		C88E71102656C00A00AB587B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88E710F2656C00A00AB587B /* SceneDelegate.swift */; };
 		C88E71122656C00A00AB587B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88E71112656C00A00AB587B /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C817B6C32656C21E0090EAFA /* steve01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = steve01.wav; sourceTree = "<group>"; };
 		C88E710A2656C00A00AB587B /* Positioning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Positioning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C88E710D2656C00A00AB587B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C88E710F2656C00A00AB587B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C817B6C22656C2140090EAFA /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				C817B6C32656C21E0090EAFA /* steve01.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		C88E71012656C00A00AB587B = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +66,7 @@
 		C88E710C2656C00A00AB587B /* Positioning */ = {
 			isa = PBXGroup;
 			children = (
+				C817B6C22656C2140090EAFA /* Sounds */,
 				C88E710D2656C00A00AB587B /* AppDelegate.swift */,
 				C88E710F2656C00A00AB587B /* SceneDelegate.swift */,
 				C88E71112656C00A00AB587B /* ViewController.swift */,
@@ -127,6 +138,7 @@
 				C88E711A2656C00C00AB587B /* LaunchScreen.storyboard in Resources */,
 				C88E71172656C00C00AB587B /* Assets.xcassets in Resources */,
 				C88E71152656C00A00AB587B /* Main.storyboard in Resources */,
+				C817B6C42656C21E0090EAFA /* steve01.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
